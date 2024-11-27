@@ -11,9 +11,9 @@ model_name = "facebook/bart-large-cnn"
 model = BartForConditionalGeneration.from_pretrained(model_name)
 tokenizer = BartTokenizer.from_pretrained(model_name)
 
-embeddings = torch.load("knowledge_base_embeddings-1.pt")
+embeddings = torch.load("task2/knowledge_base_embeddings-1.pt")
 
-with open("knowledge_base-1.txt", "r", encoding='utf-8') as file:
+with open("task2/knowledge_base-1.txt", "r", encoding='utf-8') as file:
     corpus = file.readlines()
 
 embeddings_np = embeddings.cpu().numpy()
