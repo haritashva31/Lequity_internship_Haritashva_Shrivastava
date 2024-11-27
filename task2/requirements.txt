@@ -1,6 +1,6 @@
 streamlit
-torch==1.13.1+cpu
-faiss-cpu==1.7.2.post2
+torch
+faiss-cpu
 sentence-transformers
 transformers
 pytesseract
