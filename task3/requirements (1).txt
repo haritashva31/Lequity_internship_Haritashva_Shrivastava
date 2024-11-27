@@ -1,0 +1,6 @@
+Libraries Needed:
+
+pytesseract
+Pillow
+pdf2image
+easyocr
