@@ -1,9 +1,10 @@
 streamlit
-torch
-faiss-cpu
+torch==1.13.1+cpu
+faiss-cpu==1.7.2.post2
 sentence-transformers
 transformers
 pytesseract
 pdf2image
 python-docx
 PyPDF2
+
