@@ -1,3 +1,4 @@
+onnxruntime
 streamlit
 torch
 faiss-cpu
